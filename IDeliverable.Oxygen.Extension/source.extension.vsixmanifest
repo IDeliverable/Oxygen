@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="IDeliverable.Oxygen.Extension.ecb3aea4-cb8d-4d3c-87a5-d462dce2ba6a" Version="1.8.0" Language="en-US" Publisher="IDeliverable, Ltd." />
+        <DisplayName>Oxygen</DisplayName>
+        <Description xml:space="preserve">Allows developers to quickly and easily design and auto-generate robust Visual Basic data-access layer code. NOTE: This extension is legacy in-house software, no longer actively developed and not intended for public use.</Description>
+        <Icon>Resources\Oxygen-Package.ico</Icon>
+        <PreviewImage>Resources\Oxygen-Preview.png</PreviewImage>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 17.0)" />
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    </Dependencies>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[16.0,17.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+    </Assets>
+</PackageManifest>

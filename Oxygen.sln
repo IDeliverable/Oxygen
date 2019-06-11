@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{2EED3F7F-F049-4CDB-8486-D94C22358136}"
+	ProjectSection(SolutionItems) = preProject
+		Images\Database List 48x48 24-bit.png = Images\Database List 48x48 24-bit.png
+		Images\Database List.ico = Images\Database List.ico
+		Images\Database Table 16x16.png = Images\Database Table 16x16.png
+		Images\Oxygen 16x16.psd = Images\Oxygen 16x16.psd
+		Images\Oxygen 32x32.psd = Images\Oxygen 32x32.psd
+		Images\Oxygen 48x48.psd = Images\Oxygen 48x48.psd
+		Images\Oxygen Entity 16x16.psd = Images\Oxygen Entity 16x16.psd
+		Images\Oxygen Entity 32x32.psd = Images\Oxygen Entity 32x32.psd
+		Images\Oxygen Entity 48x48.psd = Images\Oxygen Entity 48x48.psd
+		Images\Oxygen Entity.ico = Images\Oxygen Entity.ico
+		Images\Oxygen Project 16x16.psd = Images\Oxygen Project 16x16.psd
+		Images\Oxygen Project 32x32.psd = Images\Oxygen Project 32x32.psd
+		Images\Oxygen Project.ico = Images\Oxygen Project.ico
+		Images\Oxygen Settings 16x16.psd = Images\Oxygen Settings 16x16.psd
+		Images\Oxygen Settings 32x32.psd = Images\Oxygen Settings 32x32.psd
+		Images\Oxygen Settings 48x48.psd = Images\Oxygen Settings 48x48.psd
+		Images\Oxygen Settings.ico = Images\Oxygen Settings.ico
+		Images\Oxygen Setup Banner.bmp = Images\Oxygen Setup Banner.bmp
+		Images\Oxygen Setup Banner.psd = Images\Oxygen Setup Banner.psd
+		Images\Oxygen Setup Full.bmp = Images\Oxygen Setup Full.bmp
+		Images\Oxygen Setup Full.psd = Images\Oxygen Setup Full.psd
+		Images\Oxygen Setup Top.bmp = Images\Oxygen Setup Top.bmp
+		Images\Oxygen Setup Top.psd = Images\Oxygen Setup Top.psd
+		Images\Oxygen-Entity-48x48.png = Images\Oxygen-Entity-48x48.png
+		Images\Oxygen-Settings-48x48.png = Images\Oxygen-Settings-48x48.png
+		Images\Oxygen.ai = Images\Oxygen.ai
+		Images\Oxygen.ico = Images\Oxygen.ico
+		Images\Settings.ai = Images\Settings.ai
+		Images\Table 16x16.png = Images\Table 16x16.png
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDeliverable.Oxygen.Extension", "IDeliverable.Oxygen.Extension\IDeliverable.Oxygen.Extension.csproj", "{BD305924-2443-47D4-A588-A980721F02AF}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "IDeliverable.Oxygen.Core", "IDeliverable.Oxygen.Core\IDeliverable.Oxygen.Core.vbproj", "{6EC3F360-0010-41BC-8CD6-A71F6020D8CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{447183CF-6FB9-4659-969B-CE2676F74C83}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD305924-2443-47D4-A588-A980721F02AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD305924-2443-47D4-A588-A980721F02AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD305924-2443-47D4-A588-A980721F02AF}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{BD305924-2443-47D4-A588-A980721F02AF}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{BD305924-2443-47D4-A588-A980721F02AF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BD305924-2443-47D4-A588-A980721F02AF}.Debug|x86.Build.0 = Debug|Any CPU
+		{BD305924-2443-47D4-A588-A980721F02AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD305924-2443-47D4-A588-A980721F02AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD305924-2443-47D4-A588-A980721F02AF}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{BD305924-2443-47D4-A588-A980721F02AF}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{BD305924-2443-47D4-A588-A980721F02AF}.Release|x86.ActiveCfg = Release|Any CPU
+		{BD305924-2443-47D4-A588-A980721F02AF}.Release|x86.Build.0 = Release|Any CPU
+		{6EC3F360-0010-41BC-8CD6-A71F6020D8CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EC3F360-0010-41BC-8CD6-A71F6020D8CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EC3F360-0010-41BC-8CD6-A71F6020D8CD}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{6EC3F360-0010-41BC-8CD6-A71F6020D8CD}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{6EC3F360-0010-41BC-8CD6-A71F6020D8CD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6EC3F360-0010-41BC-8CD6-A71F6020D8CD}.Debug|x86.Build.0 = Debug|Any CPU
+		{6EC3F360-0010-41BC-8CD6-A71F6020D8CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EC3F360-0010-41BC-8CD6-A71F6020D8CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EC3F360-0010-41BC-8CD6-A71F6020D8CD}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{6EC3F360-0010-41BC-8CD6-A71F6020D8CD}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{6EC3F360-0010-41BC-8CD6-A71F6020D8CD}.Release|x86.ActiveCfg = Release|Any CPU
+		{6EC3F360-0010-41BC-8CD6-A71F6020D8CD}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5605FAB7-11BC-4775-B9AE-9BF8551ADDB3}
+	EndGlobalSection
+EndGlobal

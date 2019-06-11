@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<Extern href="stdidcmd.h" />
+	<Extern href="vsshlids.h" />
+
+	<Commands package="OxygenPackageGuid">
+
+		<Groups>
+			<!-- Tools menu. -->
+			<Group guid="OxygenCommandSetGuid" id="ToolsMenuGroupId" priority="0x0600">
+				<Parent guid="guidSHLMainMenu" id="IDM_VS_MENU_TOOLS"/>
+			</Group>
+			<!-- Project context menu. -->
+			<Group guid="OxygenCommandSetGuid" id="ProjectMenuGroupId" priority="0x0600">
+				<Parent guid="guidSHLMainMenu" id="IDM_VS_CTXT_PROJNODE" />
+			</Group>
+			<!-- Project item context menu. -->
+			<Group guid="OxygenCommandSetGuid" id="ProjectItemMenuGroupId" priority="0x0200">
+				<Parent guid="guidSHLMainMenu" id="IDM_VS_CTXT_ITEMNODE" />
+			</Group>
+		</Groups>
+
+		<Buttons>
+
+			<!-- New Entities from Database. -->
+			<Button guid="OxygenCommandSetGuid" id="NewEntitiesFromDatabaseCommandId" priority="0x0100" type="Button">
+				<Parent guid="OxygenCommandSetGuid" id="ProjectMenuGroupId" />
+				<Icon guid="ImagesGuid" id="ImportFromDatabaseBmpId" />
+				<CommandFlag>DefaultInvisible</CommandFlag>
+				<CommandFlag>DynamicVisibility</CommandFlag>
+				<Strings>
+					<ButtonText>New Entities from Database...</ButtonText>
+				</Strings>
+			</Button>
+
+			<!-- Rebuild All Entities. -->
+			<Button guid="OxygenCommandSetGuid" id="RebuildAllEntitiesCommandId" priority="0x0101" type="Button">
+				<Parent guid="OxygenCommandSetGuid" id="ProjectMenuGroupId" />
+				<Icon guid="ImagesGuid" id="RebuildEntityBmpId" />
+				<CommandFlag>DefaultInvisible</CommandFlag>
+				<CommandFlag>DynamicVisibility</CommandFlag>
+				<Strings>
+					<ButtonText>Rebuild All Entities</ButtonText>
+				</Strings>
+			</Button>
+
+			<!-- Edit Entity. -->
+			<Button guid="OxygenCommandSetGuid" id="EditEntityCommandId" priority="0x0100" type="Button">
+				<Parent guid="OxygenCommandSetGuid" id="ProjectItemMenuGroupId" />
+				<Icon guid="ImagesGuid" id="EditEntityBmpId" />
+				<CommandFlag>DefaultInvisible</CommandFlag>
+				<CommandFlag>DynamicVisibility</CommandFlag>
+				<Strings>
+					<ButtonText>Edit Entity</ButtonText>
+				</Strings>
+			</Button>
+
+			<!-- Edit Settings. -->
+			<Button guid="OxygenCommandSetGuid" id="EditSettingsCommandId" priority="0x0101" type="Button">
+				<Parent guid="OxygenCommandSetGuid" id="ProjectItemMenuGroupId" />
+				<Icon guid="ImagesGuid" id="EditSettingsBmpId" />
+				<CommandFlag>DefaultInvisible</CommandFlag>
+				<CommandFlag>DynamicVisibility</CommandFlag>
+				<Strings>
+					<ButtonText>Edit Settings</ButtonText>
+				</Strings>
+			</Button>
+
+			<!-- Rebuild Entity. -->
+			<Button guid="OxygenCommandSetGuid" id="RebuildEntityCommandId" priority="0x0102" type="Button">
+				<Parent guid="OxygenCommandSetGuid" id="ProjectItemMenuGroupId" />
+				<Icon guid="ImagesGuid" id="RebuildEntityBmpId" />
+				<CommandFlag>DefaultInvisible</CommandFlag>
+				<CommandFlag>DynamicVisibility</CommandFlag>
+				<CommandFlag>TextChanges</CommandFlag>
+				<Strings>
+					<ButtonText>Rebuild Entity</ButtonText>
+				</Strings>
+			</Button>
+
+		</Buttons>
+
+		<Bitmaps>
+			<Bitmap guid="ImagesGuid" href="Resources\Oxygen-Commands-16x16.png" usedList="ImportFromDatabaseBmpId, RebuildEntityBmpId, EditEntityBmpId, EditSettingsBmpId" />
+		</Bitmaps>
+
+	</Commands>
+
+	<Symbols>
+
+		<GuidSymbol name="OxygenPackageGuid" value="{05f4fe03-a3b5-471d-b27c-c37e0bbf2076}" />
+
+		<GuidSymbol name="OxygenCommandSetGuid" value="{71af475e-976d-44bd-b07e-cd6846d102b9}">
+			<IDSymbol name="ProjectMenuGroupId" value="0x1020" />
+			<IDSymbol name="ProjectItemMenuGroupId" value="0x1021" />
+			<IDSymbol name="ToolsMenuGroupId" value="0x1022" />
+			<IDSymbol name="NewEntitiesFromDatabaseCommandId" value="256" />
+			<IDSymbol name="RebuildAllEntitiesCommandId" value="257" />
+			<IDSymbol name="EditEntityCommandId" value="258" />
+			<IDSymbol name="EditSettingsCommandId" value="259" />
+			<IDSymbol name="RebuildEntityCommandId" value="260" />
+		</GuidSymbol>
+
+		<GuidSymbol name="ImagesGuid" value="{94c80e46-1e80-4f8f-b102-c0e8120005d6}">
+			<IDSymbol name="ImportFromDatabaseBmpId" value="1" />
+			<IDSymbol name="RebuildEntityBmpId" value="2" />
+			<IDSymbol name="EditEntityBmpId" value="3" />
+			<IDSymbol name="EditSettingsBmpId" value="4" />
+		</GuidSymbol>
+
+	</Symbols>
+
+</CommandTable>
